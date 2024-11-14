@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train.py --epochs 300 --iters_per_epoch 400 --finer_eval_step 120000 --w_loss_L1 1.0 --w_loss_CR 0.1 --start_lr 0.0001 --end_lr 0.000001 --exp_dir ../experiment/ --model_name NH --dataset NH
